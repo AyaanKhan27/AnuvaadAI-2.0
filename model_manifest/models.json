@@ -1,0 +1,18 @@
+{
+  "project": "AnuvaadAI 2.0",
+  "offline_required": true,
+  "languages": {
+    "hindi": "hin_Deva",
+    "english": "eng_Latn",
+    "santali": "sat_Olck"
+  },
+  "models": [],
+  "rules": [
+    "Record model source, license, version and checksum.",
+    "Do not commit model weights to normal Git history.",
+    "Verify actual language support before implementation.",
+    "Record storage size and peak RAM usage.",
+    "Record whether Android and Windows inference are supported.",
+    "Do not mark a model working without a successful test."
+  ]
+}
