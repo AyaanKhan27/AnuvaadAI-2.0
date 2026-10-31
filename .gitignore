@@ -1,0 +1,45 @@
+# Model weights and large AI assets
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.tflite
+*.gguf
+*.model
+*.ckpt
+models/
+checkpoints/
+
+# Build outputs
+build/
+.dart_tool/
+.flutter-plugins*
+.packages/
+*.apk
+*.aab
+*.exe
+*.msi
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
