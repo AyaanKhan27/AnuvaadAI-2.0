@@ -22,6 +22,22 @@ AnuvaadAI 2.0 is an offline-first multilingual education and translation platfor
 
 ---
 
+## Application Demo
+
+Watch the complete AnuvaadAI 2.0 application running live on target physical hardware (OPPO CPH2793IN, Android 16 / API 36). The demonstration showcases offline neural translation, Ol Chiki script rendering, on-device OCR vision scanning, classroom speech recognition, Santali VITS neural speech synthesis, and the new multi-page PDF Translation Studio with facsimile layout preservation.
+
+[![Watch AnuvaadAI 2.0 Application Demo](assets/demo/demo-thumbnail.png)](assets/demo/anuvaadai-demo.mp4)
+
+> 📹 **[Click here to watch or download the full demonstration video (`anuvaadai-demo.mp4`)](assets/demo/anuvaadai-demo.mp4)**
+> 
+> - **File:** `assets/demo/anuvaadai-demo.mp4`
+> - **Duration:** 2 minutes 03 seconds (123.3s)
+> - **Resolution:** 388 × 848 (43.7 fps H.264 video with AAC audio)
+> - **File Size:** 18.40 MB (19,293,446 bytes)
+> - **Execution Environment:** Recorded directly from the production application running completely on-device without internet access.
+
+---
+
 ## Application Screenshots
 
 ### Application Interface
