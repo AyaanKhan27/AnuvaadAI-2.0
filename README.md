@@ -22,6 +22,38 @@ AnuvaadAI 2.0 is an offline-first multilingual education and translation platfor
 
 ---
 
+## Application Screenshots
+
+### Application Interface
+
+| Home Screen Overview | Classroom Learning Studios |
+| :---: | :---: |
+| <img src="assets/screenshots/01-home-screen-hero.png" width="360" alt="Home Screen Overview" /><br/>*Home Screen Hero & Learning Tools* | <img src="assets/screenshots/02-classroom-learning-studios.png" width="360" alt="Classroom Learning Studios" /><br/>*Classroom Learning Studios Hub* |
+
+| Tools & Offline Storage | |
+| :---: | :---: |
+| <img src="assets/screenshots/03-classroom-tools-and-storage.png" width="360" alt="Tools & Offline Storage" /><br/>*Classroom Tools, Saved Lessons & Settings* | |
+
+### Translation Features
+
+| Offline Text Translation | Live Classroom Bridge |
+| :---: | :---: |
+| <img src="assets/screenshots/04-offline-text-translation.png" width="360" alt="Offline Text Translation" /><br/>*English / Hindi to Santali Ol Chiki Neural Translation* | <img src="assets/screenshots/05-live-teacher-bridge.png" width="360" alt="Live Classroom Bridge" /><br/>*Continuous Teacher Speech-to-Ol Chiki Translation* |
+
+### OCR and Speech
+
+| Speech Studio | Scan & OCR Studio |
+| :---: | :---: |
+| <img src="assets/screenshots/06-speech-recognition-studio.png" width="360" alt="Speech Studio" /><br/>*On-Device Speech Recognition & Audio Input* | <img src="assets/screenshots/07-scan-and-ocr-studio.png" width="360" alt="Scan & OCR Studio" /><br/>*Google ML Kit On-Device Vision & Worksheet OCR* |
+
+### PDF Translation and Learning Materials
+
+| Document Extraction Processor | PDF-to-Santali Document Studio |
+| :---: | :---: |
+| <img src="assets/screenshots/08-document-extraction-processor.png" width="360" alt="Document Extraction Processor" /><br/>*Offline PDF, DOCX, and Plain Text Extraction* | <img src="assets/screenshots/09-pdf-translation-studio.png" width="360" alt="PDF-to-Santali Document Studio" /><br/>*Multi-Page PDF Layout Preservation & Ol Chiki Export* |
+
+---
+
 ## Deliverables & Artifacts
 
 - **Final Release APK:** `release_final\AnuvaadAI-2.0-FINAL-RELEASE.apk` (199.7 MB, SHA-256: `3AF277EADFE0ADC6E744DBB111B3A07156BDC147B7EE5A2D8A265F52E2CAB43E`)
