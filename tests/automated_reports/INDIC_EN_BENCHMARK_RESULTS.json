@@ -1,0 +1,333 @@
+{
+  "hindi_to_english": [
+    {
+      "id": 1,
+      "category": "Short Greeting",
+      "source": "नमस्ते।",
+      "translation": "Hello .",
+      "total_ms": 109.57230000349227,
+      "token_count": 3
+    },
+    {
+      "id": 2,
+      "category": "Short Courtesy",
+      "source": "धन्यवाद।",
+      "translation": "Thank you .",
+      "total_ms": 133.11200000316603,
+      "token_count": 4
+    },
+    {
+      "id": 3,
+      "category": "Short Response",
+      "source": "हाँ, मैं तैयार हूँ।",
+      "translation": "Yes , I am ready .",
+      "total_ms": 367.63210000208346,
+      "token_count": 7
+    },
+    {
+      "id": 4,
+      "category": "Short Salutation",
+      "source": "शुभ प्रभात।",
+      "translation": "Good morning .",
+      "total_ms": 74.67299999552779,
+      "token_count": 4
+    },
+    {
+      "id": 5,
+      "category": "Question",
+      "source": "आपका नाम क्या है?",
+      "translation": "What 's your name ?",
+      "total_ms": 144.46889999817358,
+      "token_count": 7
+    },
+    {
+      "id": 6,
+      "category": "Question",
+      "source": "क्या आप मेरी मदद कर सकते हैं?",
+      "translation": "Could you help me out ?",
+      "total_ms": 185.09669999912148,
+      "token_count": 7
+    },
+    {
+      "id": 7,
+      "category": "Question",
+      "source": "यह स्कूल कहाँ स्थित है?",
+      "translation": "Where is this school located ?",
+      "total_ms": 159.28669999993872,
+      "token_count": 7
+    },
+    {
+      "id": 8,
+      "category": "Question",
+      "source": "आज कौन सा पाठ पढ़ाया जाएगा?",
+      "translation": "What lesson will be taught today ?",
+      "total_ms": 234.78730000351788,
+      "token_count": 8
+    },
+    {
+      "id": 9,
+      "category": "Numbers & Stats",
+      "source": "कक्षा 5 में 42 छात्र और 3 शिक्षक हैं।",
+      "translation": "There are 42 students and 3 teachers in class 5 .",
+      "total_ms": 514.0022000050521,
+      "token_count": 12
+    },
+    {
+      "id": 10,
+      "category": "Numbers & Dates",
+      "source": "वर्ष 2026 में 15 अगस्त को 79वां स्वतंत्रता दिवस मनाया जाएगा।",
+      "translation": "In the year 2026 , the 79th Independence Day will be celebrated on 15 August .",
+      "total_ms": 380.2496999996947,
+      "token_count": 19
+    },
+    {
+      "id": 11,
+      "category": "Numbers & Calendar",
+      "source": "एक सप्ताह में 7 दिन और एक वर्ष में 365 दिन होते हैं।",
+      "translation": "There are 7 days in a week and 365 days in a year .",
+      "total_ms": 445.1351999960025,
+      "token_count": 16
+    },
+    {
+      "id": 12,
+      "category": "Educational Science",
+      "source": "विज्ञान हमें प्रकृति और पर्यावरण को समझने में मदद करता है।",
+      "translation": "Science helps us to understand nature and the environment .",
+      "total_ms": 431.95920000289334,
+      "token_count": 11
+    },
+    {
+      "id": 13,
+      "category": "Educational Math",
+      "source": "गणित में जोड़, घटाव, गुणा और भाग बुनियादी संक्रियाएँ हैं।",
+      "translation": "In mathematics , addition , subtraction , multiplication , and division are basic operations .",
+      "total_ms": 779.5445000010659,
+      "token_count": 19
+    },
+    {
+      "id": 14,
+      "category": "Educational Biology",
+      "source": "सूर्य के प्रकाश से पौधे अपना भोजन प्रकाश संश्लेषण द्वारा बनाते हैं।",
+      "translation": "Plants make their food by photosynthesis from sunlight .",
+      "total_ms": 278.17350000259466,
+      "token_count": 14
+    },
+    {
+      "id": 15,
+      "category": "Health & Hygiene",
+      "source": "पानी को उबालकर पीने से कई बीमारियाँ दूर रहती हैं।",
+      "translation": "Drinking boiled water keeps many diseases at bay .",
+      "total_ms": 228.74489999958314,
+      "token_count": 11
+    },
+    {
+      "id": 16,
+      "category": "Long Policy",
+      "source": "प्राथमिक शिक्षा प्रत्येक बच्चे का मौलिक अधिकार है और इसे मातृभाषा में देना सर्वाधिक प्रभावी माना गया है।",
+      "translation": "Primary education is a fundamental right of every child and it has been considered most effective to be imparted in the mother tongue .",
+      "total_ms": 828.6885999987135,
+      "token_count": 26
+    },
+    {
+      "id": 17,
+      "category": "Long Descriptive",
+      "source": "गाँव की पाठशाला में बच्चे रोज सुबह प्रार्थना करते हैं और उसके बाद अपनी कक्षाओं में बैठकर पढ़ाई करते हैं।",
+      "translation": "In the village school , children pray every morning and then sit in their classrooms and study .",
+      "total_ms": 558.734899997944,
+      "token_count": 19
+    },
+    {
+      "id": 18,
+      "category": "Long Civic",
+      "source": "पर्यावरण की रक्षा के लिए हमें अधिक से अधिक पेड़ लगाने चाहिए और प्लास्टिक का उपयोग तुरंत बंद करना चाहिए।",
+      "translation": "To protect the environment , we must plant more and more trees and stop using plastic immediately .",
+      "total_ms": 591.6749000025447,
+      "token_count": 19
+    },
+    {
+      "id": 19,
+      "category": "Educational Instructional",
+      "source": "कृपया अपनी पाठ्यपुस्तक का पृष्ठ संख्या 25 खोलें और पहला पैराग्राफ ध्यानपूर्वक पढ़ें।",
+      "translation": "Please open page 25 of your textbook and read the first paragraph carefully .",
+      "total_ms": 555.9202000004007,
+      "token_count": 17
+    },
+    {
+      "id": 20,
+      "category": "Complex Classroom Narrative",
+      "source": "जब शिक्षक ने ब्लैकबोर्ड पर नया सवाल लिखा, तो सभी विद्यार्थियों ने अपनी उत्तर पुस्तिकाओं में हल करना शुरू किया।",
+      "translation": "When the teacher wrote the new question on the blackboard , all the students started solving it in their answer sheets .",
+      "total_ms": 793.5031000015442,
+      "token_count": 24
+    }
+  ],
+  "santali_to_english": [
+    {
+      "id": 1,
+      "category": "Short Greeting",
+      "source": "ᱥᱟᱹᱜᱩᱱ ᱡᱚᱦᱟᱨ ᱾",
+      "translation": "The message is good .",
+      "total_ms": 145.9501999997883,
+      "token_count": 6
+    },
+    {
+      "id": 2,
+      "category": "Short Courtesy",
+      "source": "ᱥᱟᱨᱦᱟᱣ ᱾",
+      "translation": "Thank you .",
+      "total_ms": 184.80320000526262,
+      "token_count": 4
+    },
+    {
+      "id": 3,
+      "category": "Short Response",
+      "source": "ᱦᱮᱸ, ᱤᱧ ᱛᱮᱭᱟᱨ ᱢᱮᱱᱟᱹᱧᱟ ᱾",
+      "translation": "Please help me to prepare .",
+      "total_ms": 153.61290000146255,
+      "token_count": 7
+    },
+    {
+      "id": 4,
+      "category": "Short Salutation",
+      "source": "ᱥᱟᱹᱜᱩᱱ ᱥᱮᱛᱟᱜ ᱾",
+      "translation": "Wednesday morning .",
+      "total_ms": 81.04879999882542,
+      "token_count": 4
+    },
+    {
+      "id": 5,
+      "category": "Question",
+      "source": "ᱟᱢᱟᱜ ᱧᱩᱛᱩᱢ ᱫᱚ ᱪᱮᱫ?",
+      "translation": "what is your name",
+      "total_ms": 136.55689999723108,
+      "token_count": 5
+    },
+    {
+      "id": 6,
+      "category": "Question",
+      "source": "ᱟᱢ ᱪᱮᱫ ᱞᱮᱠᱟ ᱢᱮᱱᱟᱢᱟ?",
+      "translation": "how are you feeling",
+      "total_ms": 135.74979999975767,
+      "token_count": 5
+    },
+    {
+      "id": 7,
+      "category": "Question",
+      "source": "ᱱᱚᱶᱟ ᱟᱥᱲᱟ ᱫᱚ ᱚᱠᱟᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ?",
+      "translation": "where is this institution located",
+      "total_ms": 143.41720000084024,
+      "token_count": 6
+    },
+    {
+      "id": 8,
+      "category": "Question",
+      "source": "ᱛᱮᱦᱮᱧ ᱫᱚ ᱪᱮᱫ ᱵᱚᱱ ᱯᱟᱲᱦᱟᱣᱜᱼᱟ?",
+      "translation": "what is the reading today",
+      "total_ms": 233.39400000259047,
+      "token_count": 6
+    },
+    {
+      "id": 9,
+      "category": "Numbers & Stats",
+      "source": "ᱠᱞᱟᱥ ᱕ ᱨᱮ ᱔᱒ ᱜᱚᱴᱟᱝ ᱯᱟᱹᱴᱷᱩᱣᱟᱹ ᱟᱨ ᱓ ᱡᱚᱱᱟ ᱜᱟᱞᱚᱪᱤᱭᱟᱹ ᱢᱮᱱᱟᱜ ᱠᱚᱣᱟ ᱾",
+      "translation": "The class has eight students and eight speakers .",
+      "total_ms": 283.49449999950593,
+      "token_count": 10
+    },
+    {
+      "id": 10,
+      "category": "Numbers & Calendar",
+      "source": "ᱢᱤᱫ ᱦᱟᱯᱛᱟ ᱨᱮ ᱗ ᱢᱟᱦᱟᱸ ᱟᱨ ᱢᱤᱫ ᱥᱮᱨᱢᱟ ᱨᱮ ᱓᱖᱕ ᱢᱟᱦᱟᱸ ᱛᱟᱦᱮᱸᱱᱟ ᱾",
+      "translation": "One week is the harvest and one year is the harvest .",
+      "total_ms": 406.332200000179,
+      "token_count": 13
+    },
+    {
+      "id": 11,
+      "category": "Numbers & Measure",
+      "source": "ᱱᱚᱶᱟ ᱯᱩᱛᱷᱤ ᱨᱮ ᱑᱒᱐ ᱥᱟᱦᱴᱟ ᱢᱮᱱᱟᱜᱼᱟ ᱾",
+      "translation": "This book has a lot of information .",
+      "total_ms": 215.58180000283755,
+      "token_count": 9
+    },
+    {
+      "id": 12,
+      "category": "Educational Science",
+      "source": "ᱥᱟᱬᱮᱥ ᱫᱚ ᱟᱵᱚ ᱫᱷᱟᱹᱨᱛᱤ ᱟᱨ ᱯᱚᱨᱤᱵᱮᱥ ᱵᱩᱡᱷᱟᱹᱣ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟᱵᱚᱱᱟ ᱾",
+      "translation": "Science helps in understanding the world and the environment .",
+      "total_ms": 244.56210000062129,
+      "token_count": 11
+    },
+    {
+      "id": 13,
+      "category": "Educational Heritage",
+      "source": "ᱚᱞ ᱪᱤᱠᱤ ᱫᱚ ᱥᱟᱱᱛᱟᱲᱤ ᱯᱟᱹᱨᱥᱤ ᱨᱮᱱᱟᱜ ᱟᱯᱱᱟᱨ ᱪᱤᱠᱤ ᱠᱟᱱᱟ ᱾",
+      "translation": "Written script is the native script of the Malay language .",
+      "total_ms": 207.6004999980796,
+      "token_count": 12
+    },
+    {
+      "id": 14,
+      "category": "Educational Classroom",
+      "source": "ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱟᱥᱲᱟ ᱨᱮ ᱯᱟᱲᱦᱟᱣ ᱟᱨ ᱚᱞ ᱠᱚ ᱪᱮᱫᱚᱜᱼᱟ ᱾",
+      "translation": "What happens to the children studying and writing in the institute ?",
+      "total_ms": 434.75069999840343,
+      "token_count": 13
+    },
+    {
+      "id": 15,
+      "category": "Educational Science",
+      "source": "ᱫᱟᱜ ᱫᱚ ᱡᱤᱣᱤ ᱨᱮᱱᱟᱜ ᱢᱩᱬᱩᱛ ᱠᱟᱱᱟ, ᱱᱚᱶᱟ ᱵᱤᱱᱟᱹ ᱚᱠᱚᱭ ᱦᱚᱸ ᱵᱟᱠᱚ ᱵᱟᱧᱪᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
+      "translation": "Water is the key to life and without it , no one can survive .",
+      "total_ms": 406.0246000008192,
+      "token_count": 16
+    },
+    {
+      "id": 16,
+      "category": "Long History",
+      "source": "ᱯᱚᱸᱰᱤᱛ ᱨᱟᱹᱜᱷᱩᱱᱟᱛᱷ ᱢᱩᱨᱢᱩ ᱛᱟᱹᱠᱤᱱ ᱑᱙᱒᱕ ᱥᱟᱞᱮ ᱨᱮ ᱥᱟᱱᱛᱟᱲᱤ ᱯᱟᱹᱨᱥᱤ ᱞᱟᱹᱜᱤᱫ ᱚᱞ ᱪᱤᱠᱤ ᱠᱤᱱ ᱵᱮᱱᱟᱣ ᱞᱮᱫᱼᱟ ᱾",
+      "translation": "The city of Madurai has produced a series of inscriptions written in the Malayalam language .",
+      "total_ms": 443.8203999961843,
+      "token_count": 17
+    },
+    {
+      "id": 17,
+      "category": "Long Classroom",
+      "source": "ᱟᱛᱳ ᱟᱥᱲᱟ ᱨᱮ ᱥᱮᱛᱟᱜ ᱵᱮᱲᱟ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱡᱚᱦᱟᱨ ᱠᱟᱛᱮ ᱟᱠᱚᱣᱟᱜ ᱠᱞᱟᱥ ᱨᱮ ᱯᱟᱲᱦᱟᱣ ᱠᱚ ᱮᱛᱚᱦᱚᱵᱟ ᱾",
+      "translation": "In the village institutions , the children start their classes in the morning by praying .",
+      "total_ms": 493.45290000201203,
+      "token_count": 17
+    },
+    {
+      "id": 18,
+      "category": "Long Civic",
+      "source": "ᱯᱚᱨᱤᱵᱮᱥ ᱵᱟᱧᱪᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱟᱵᱚ ᱡᱚᱛᱚ ᱦᱚᱲ ᱫᱟᱨᱮ ᱨᱚᱦᱚᱭ ᱟᱨ ᱥᱟᱯᱷᱟ ᱫᱚᱦᱚ ᱨᱮ ᱢᱚᱱᱮ ᱮᱢ ᱦᱩᱭᱩᱜᱼᱟ ᱾",
+      "translation": "Every person is encouraged to plant and keep clean to save the environment .",
+      "total_ms": 418.99240000202553,
+      "token_count": 15
+    },
+    {
+      "id": 19,
+      "category": "Educational Instructional",
+      "source": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱯᱱᱟᱨᱟᱜ ᱯᱩᱛᱷᱤ ᱨᱮᱱᱟᱜ ᱒᱕ ᱥᱟᱦᱴᱟ ᱡᱷᱤᱡ ᱢᱮ ᱟᱨ ᱯᱟᱲᱦᱟᱣ ᱢᱮ ᱾",
+      "translation": "Please open and read your book 's title .",
+      "total_ms": 373.13620000350056,
+      "token_count": 11
+    },
+    {
+      "id": 20,
+      "category": "Complex Narrative",
+      "source": "ᱜᱟᱞᱚᱪᱤᱭᱟᱹ ᱡᱚᱠᱷᱚᱱ ᱵᱞᱟᱠᱵᱳᱨᱰ ᱨᱮ ᱚᱞ ᱠᱮᱫᱼᱟᱭ, ᱠᱷᱟᱱ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱟᱠᱚᱣᱟᱜ ᱠᱷᱟᱛᱟ ᱨᱮ ᱚᱞ ᱠᱚ ᱮᱛᱚᱦᱚᱵ ᱠᱮᱫᱼᱟ ᱾",
+      "translation": "When the speaker writes on the blackboard , the children begin to write on their accounts .",
+      "total_ms": 509.321400000772,
+      "token_count": 19
+    }
+  ],
+  "benchmark_summary": {
+    "total_sentences": 40,
+    "hindi_avg_ms": 389.74799500065274,
+    "santali_avg_ms": 282.58013500053494,
+    "peak_traced_ram_mb": 29.06161403656006,
+    "all_non_empty": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "audit_timestamp": "2026-10-31T23:48:00Z",
+  "target_device": {
+    "model": "OPPO CPH2793IN",
+    "total_ram_gb": 6.0,
+    "available_ram_mb": 3200.0,
+    "soc": "MediaTek Helio G88",
+    "os": "Android 16"
+  },
+  "model_loading_memory": {
+    "baseline_mb": 46.4,
+    "after_encoder_load_mb": 116.78,
+    "encoder_footprint_mb": 70.38,
+    "after_decoder_load_mb": 220.84,
+    "decoder_footprint_mb": 104.06,
+    "total_model_resident_mb": 174.44,
+    "after_warmup_inference_mb": 222.82,
+    "peak_inference_footprint_mb": 176.42,
+    "model_initialization_time_ms": 1491.08
+  },
+  "session_release_verification": {
+    "memory_before_release_mb": 222.82,
+    "memory_after_release_mb": 57.59,
+    "memory_reclaimed_mb": 165.23,
+    "reclaim_percentage": 93.66,
+    "successful_release": true
+  },
+  "switching_cycles": [
+    {
+      "cycle": 1,
+      "loaded_mb": 118.59,
+      "post_release_mb": 59.1,
+      "delta_from_baseline_mb": 12.7
+    },
+    {
+      "cycle": 2,
+      "loaded_mb": 119.6,
+      "post_release_mb": 58.95,
+      "delta_from_baseline_mb": 12.54
+    },
+    {
+      "cycle": 3,
+      "loaded_mb": 119.52,
+      "post_release_mb": 59.46,
+      "delta_from_baseline_mb": 13.06
+    },
+    {
+      "cycle": 4,
+      "loaded_mb": 119.39,
+      "post_release_mb": 59.21,
+      "delta_from_baseline_mb": 12.8
+    },
+    {
+      "cycle": 5,
+      "loaded_mb": 119.52,
+      "post_release_mb": 59.76,
+      "delta_from_baseline_mb": 13.36
+    }
+  ],
+  "chunked_processing_leak_test": {
+    "chunks_processed": 50,
+    "memory_samples_mb": [
+      126.07,
+      126.54,
+      126.57,
+      126.57,
+      126.57
+    ],
+    "net_growth_mb": 0.5,
+    "has_memory_leak": false
+  },
+  "verdict": "PASS",
+  "switching_drift_mb": 0.66
+}

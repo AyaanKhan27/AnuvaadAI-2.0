@@ -1,0 +1,140 @@
+{
+  "total_phone_files": 30,
+  "matches": 30,
+  "mismatches": 0,
+  "missing": 0,
+  "local_manifest": {
+    "en-indic-models/decoder_model.onnx": {
+      "size": 424644,
+      "sha256": "AD60B1EE386C7AAF537F34FB3885824705F1C2133670E9A5720AC47640778775"
+    },
+    "en-indic-models/decoder_shared.onnx.data": {
+      "size": 805691392,
+      "sha256": "89982FDDE643782AF31C9305446F1E05A896320003720DA6B85737489B95FD5D"
+    },
+    "en-indic-models/decoder_with_past_model.onnx": {
+      "size": 393298,
+      "sha256": "2AB43E849050AE0EC10D10C9A51FB7F49B0066FA21C9D3EF532F3607E153F3AE"
+    },
+    "en-indic-models/dict.SRC.json": {
+      "size": 645314,
+      "sha256": "C6F65113581422C8777991D3770123C63447FE63DC5F3E8F4187EEFF7553A689"
+    },
+    "en-indic-models/dict.TGT.json": {
+      "size": 3390440,
+      "sha256": "F7817850C9E4B99C59FAD57D0611C7720F1921F215E6F247CF25D52EFF7F1146"
+    },
+    "en-indic-models/encoder_model.onnx": {
+      "size": 237174,
+      "sha256": "6DA8412B812868E3B65A67036F3290C5CA5BC160A06D05E67886E0FF28557BCE"
+    },
+    "en-indic-models/encoder_model.onnx.data": {
+      "size": 293703680,
+      "sha256": "B093E2FB820ADA91812EAA1231EAA98C087D4B00240EDD3BAC4EAAABFA04CECE"
+    },
+    "en-indic-models/model.SRC": {
+      "size": 759425,
+      "sha256": "3CEDC5CBCC740369B76201942A0F096FEC7287FEE039B55BDB956F301235B914"
+    },
+    "en-indic-models/model.TGT": {
+      "size": 3256903,
+      "sha256": "AC9257C8E76B8B607705B959CC3D075656EA33032F7A974E467B8941DF6E98D4"
+    },
+    "indic-en-models/.verified": {
+      "size": 76,
+      "sha256": "2F15C319546B256C732615A307E3DC0A043CB363123F2BD1C2D2F4551103F2A7"
+    },
+    "indic-en-models/decoder_model.onnx": {
+      "size": 1585382,
+      "sha256": "845CDBAF0EE97D3C8DDFF249A2E2D6E475D7AE1781157FCC6D0D651405BB8DD6"
+    },
+    "indic-en-models/decoder_shared.onnx.data": {
+      "size": 110052040,
+      "sha256": "ABE939CE4D60BCBB9744790640188686C8AF084083EB50D63BDBB7266A325D9A"
+    },
+    "indic-en-models/decoder_with_past_model.onnx": {
+      "size": 1398395,
+      "sha256": "BCC818DB56BC681FAB2D50CA31B99DBCB5F82ABBCE4DCCC92946EDF5906FA86E"
+    },
+    "indic-en-models/dict.SRC.json": {
+      "size": 3391208,
+      "sha256": "3D3B180702520742DEC423A5A7F7B4E3DAD399D69E40CA7DF294A1567884BED5"
+    },
+    "indic-en-models/dict.TGT.json": {
+      "size": 644755,
+      "sha256": "13C3A162FE655DBE99C790A413675C5D0634CD771FADCEFE8D407676A7D1A311"
+    },
+    "indic-en-models/encoder_model.onnx": {
+      "size": 831436,
+      "sha256": "79DD1C3D9F90F8BBD48EFFCC2D150616AC3A97525C8081481F14CD5095567CA6"
+    },
+    "indic-en-models/encoder_model.onnx.data": {
+      "size": 120068096,
+      "sha256": "6C402DF00DFC45A69607E0231E1E5FD884508B19CA664836C94DD61BFA1BA137"
+    },
+    "indic-en-models/generation_config.json": {
+      "size": 163,
+      "sha256": "6C8B29AE72E680D5A2D9E849567F6F556D3F4E9BBD42434964A646F49B556972"
+    },
+    "indic-en-models/model.SRC": {
+      "size": 3256903,
+      "sha256": "AC9257C8E76B8B607705B959CC3D075656EA33032F7A974E467B8941DF6E98D4"
+    },
+    "indic-en-models/model.TGT": {
+      "size": 759425,
+      "sha256": "3CEDC5CBCC740369B76201942A0F096FEC7287FEE039B55BDB956F301235B914"
+    },
+    "indic-en-models/tokenizer_config.json": {
+      "size": 1105,
+      "sha256": "B0C7AC8AEB57D54D079494CE726563CC37398E698086104BD06B5AA5B69A775D"
+    },
+    "models/.verified": {
+      "size": 76,
+      "sha256": "632700C4EA1287594BC86CA278D522996A1B716F0DC42FD3A55AB8B8A77E4535"
+    },
+    "models/decoder_prefill.onnx": {
+      "size": 806499935,
+      "sha256": "87CC453CB3224EE6716F98EF6B7FE402454272BF23B884F2DB63551F2BDD1106"
+    },
+    "models/decoder_with_past.onnx": {
+      "size": 768614125,
+      "sha256": "355B0BECB7D5D4063ED6B6C00B366CD22F60C1C60ED857149BDD7D7CD6931BA9"
+    },
+    "models/dict.SRC.json": {
+      "size": 3391208,
+      "sha256": "3D3B180702520742DEC423A5A7F7B4E3DAD399D69E40CA7DF294A1567884BED5"
+    },
+    "models/dict.TGT.json": {
+      "size": 3390440,
+      "sha256": "F7817850C9E4B99C59FAD57D0611C7720F1921F215E6F247CF25D52EFF7F1146"
+    },
+    "models/encoder.onnx": {
+      "size": 479185079,
+      "sha256": "C7BB33C86D57F54F3D784E634E93E7559FD1A246AB2D0FE4B74395D2E964AFE9"
+    },
+    "models/model.SRC": {
+      "size": 3256903,
+      "sha256": "AC9257C8E76B8B607705B959CC3D075656EA33032F7A974E467B8941DF6E98D4"
+    },
+    "models/model.TGT": {
+      "size": 3256903,
+      "sha256": "AC9257C8E76B8B607705B959CC3D075656EA33032F7A974E467B8941DF6E98D4"
+    },
+    "santali-tts/.verified": {
+      "size": 76,
+      "sha256": "632700C4EA1287594BC86CA278D522996A1B716F0DC42FD3A55AB8B8A77E4535"
+    },
+    "santali-tts/phoneme_id_map.json": {
+      "size": 5363,
+      "sha256": "AAEAF4A2EEDB9AE38D65B334178694DDBDA337235C52771B267D1B73728DB501"
+    },
+    "santali-tts/santali_piper_vits.onnx": {
+      "size": 63502227,
+      "sha256": "4B77FF657567A9163F99E7128FD832E2DB95BBA1AEDF44310E6E60EBF3C11970"
+    },
+    "santali-tts/santali_piper_vits.onnx.json": {
+      "size": 7225,
+      "sha256": "797C728EBA439D35967CC8D03C52D53C53A03E5F436C2847E02F037765FD4371"
+    }
+  }
+}

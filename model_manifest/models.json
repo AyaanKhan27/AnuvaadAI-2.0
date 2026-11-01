@@ -1,12 +1,180 @@
 {
   "project": "AnuvaadAI 2.0",
+  "version": "2.0.0",
   "offline_required": true,
   "languages": {
-    "hindi": "hin_Deva",
-    "english": "eng_Latn",
-    "santali": "sat_Olck"
+    "hindi": {
+      "code": "hin_Deva",
+      "name": "Hindi",
+      "script": "Devanagari"
+    },
+    "english": {
+      "code": "eng_Latn",
+      "name": "English",
+      "script": "Latin"
+    },
+    "santali": {
+      "code": "sat_Olck",
+      "name": "Santali",
+      "script": "Ol Chiki"
+    }
   },
-  "models": [],
+  "models": [
+    {
+      "id": "indictrans2-indic-indic",
+      "name": "IndicTrans2 Indic-to-Indic Distilled",
+      "architecture": "Transformer Seq2Seq (Encoder-Decoder with Past KV Cache)",
+      "runtime": "ONNX Runtime Mobile",
+      "purpose": "Translation between Indian languages including Hindi <-> Santali",
+      "supported_directions": [
+        "hin_Deva->sat_Olck",
+        "sat_Olck->hin_Deva"
+      ],
+      "files": [
+        {
+          "name": "encoder.onnx",
+          "size": 479185079,
+          "sha256": "c7bb33c86d57f54f3d784e634e93e7559fd1a246ab2d0fe4b74395d2e964afe9"
+        },
+        {
+          "name": "decoder_prefill.onnx",
+          "size": 806499935,
+          "sha256": "87cc453cb3224ee6716f98ef6b7fe402454272bf23b884f2db63551f2bdd1106"
+        },
+        {
+          "name": "decoder_with_past.onnx",
+          "size": 768614125,
+          "sha256": "355b0becb7d5d4063ed6b6c00b366cd22f60c1c60ed857149bdd7d7cd6931ba9"
+        },
+        {
+          "name": "model.SRC",
+          "size": 3256903,
+          "sha256": "ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4"
+        },
+        {
+          "name": "model.TGT",
+          "size": 3256903,
+          "sha256": "ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4"
+        },
+        {
+          "name": "dict.SRC.json",
+          "size": 3391208,
+          "sha256": "3d3b180702520742dec423a5a7f7b4e3dad399d69e40ca7df294a1567884bed5"
+        },
+        {
+          "name": "dict.TGT.json",
+          "size": 3390440,
+          "sha256": "f7817850c9e4b99c59fad57d0611c7720f1921f215e6f247cf25d52eff7f1146"
+        }
+      ],
+      "license": "AI4Bharat Research & Commercial Permissive",
+      "status": "verified_offline"
+    },
+    {
+      "id": "indictrans2-en-indic-dist-200m",
+      "name": "IndicTrans2 English-to-Indic Distilled 200M ONNX",
+      "architecture": "Transformer Seq2Seq (Encoder-Decoder with Past KV Cache)",
+      "runtime": "ONNX Runtime Mobile",
+      "purpose": "Translation from English to Indic languages including English -> Santali and English -> Hindi",
+      "supported_directions": [
+        "eng_Latn->sat_Olck",
+        "eng_Latn->hin_Deva"
+      ],
+      "files": [
+        {
+          "name": "encoder_model.onnx",
+          "size": 237174,
+          "sha256": "6da8412b812868e3b65a67036f3290c5ca5bc160a06d05e67886e0ff28557bce"
+        },
+        {
+          "name": "encoder_model.onnx.data",
+          "size": 293703680,
+          "sha256": "b093e2fb820ada91812eaa1231eaa98c087d4b00240edd3bac4eaaabfa04cece"
+        },
+        {
+          "name": "decoder_model.onnx",
+          "size": 424644,
+          "sha256": "ad60b1ee386c7aaf537f34fb3885824705f1c2133670e9a5720ac47640778775"
+        },
+        {
+          "name": "decoder_shared.onnx.data",
+          "size": 805691392,
+          "sha256": "89982fdde643782af31c9305446f1e05a896320003720da6b85737489b95fd5d"
+        },
+        {
+          "name": "decoder_with_past_model.onnx",
+          "size": 393298,
+          "sha256": "2ab43e849050ae0ec10d10c9a51fb7f49b0066fa21c9d3ef532f3607e153f3ae"
+        },
+        {
+          "name": "model.SRC",
+          "size": 759425,
+          "sha256": "3cedc5cbcc740369b76201942a0f096fec7287fee039b55bdb956f301235b914"
+        },
+        {
+          "name": "model.TGT",
+          "size": 3256903,
+          "sha256": "ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4"
+        },
+        {
+          "name": "dict.SRC.json",
+          "size": 645314,
+          "sha256": "c6f65113581422c8777991d3770123c63447fe63dc5f3e8f4187eeff7553a689"
+        },
+        {
+          "name": "dict.TGT.json",
+          "size": 3390440,
+          "sha256": "f7817850c9e4b99c59fad57d0611c7720f1921f215e6f247cf25d52eff7f1146"
+        }
+      ],
+      "license": "MIT / AI4Bharat",
+      "status": "verified_offline"
+    },
+    {
+      "id": "santali-piper-vits",
+      "name": "Santali Ol Chiki VITS Neural TTS",
+      "architecture": "Variational Inference with adversarial learning (VITS/Piper)",
+      "runtime": "ONNX Runtime Mobile + Kotlin Phonemizer",
+      "purpose": "Native Ol Chiki Santali Speech Synthesis (Text-to-Speech)",
+      "sample_rate": 22050,
+      "files": [
+        {
+          "name": "santali_piper_vits.onnx",
+          "size": 63502227,
+          "sha256": "4b77ff657567a9163f99e7128fd832e2db95bba1aedf44310e6e60ebf3c11970"
+        },
+        {
+          "name": "santali_piper_vits.onnx.json",
+          "size": 7225,
+          "sha256": "797c728eba439d35967cc8d03c52d53c53a03e5f436c2847e02f037765fd4371"
+        },
+        {
+          "name": "phoneme_id_map.json",
+          "size": 5363,
+          "sha256": "aaeaf4a2eedb9ae38d65b334178694ddbda337235c52771b267d1b73728db501"
+        }
+      ],
+      "license": "Open Source / Piper Hub",
+      "status": "verified_offline"
+    },
+    {
+      "id": "google-mlkit-devanagari-latin",
+      "name": "Google ML Kit Text Recognition (Devanagari & Latin)",
+      "architecture": "On-Device Mobile Vision OCR",
+      "runtime": "Android Native ML Kit SDK",
+      "purpose": "Offline text extraction from camera & images for Hindi and English",
+      "status": "bundled_in_apk"
+    },
+    {
+      "id": "indictrans2-indic-en-dist-200m",
+      "name": "IndicTrans2 Indic-to-English Distilled 200M ONNX",
+      "architecture": "Transformer Seq2Seq",
+      "runtime": "ONNX Runtime Mobile",
+      "purpose": "Translation from Indic languages to English (hin_Deva->eng_Latn, sat_Olck->eng_Latn)",
+      "source": "hari31416/indictrans2-indic-en-dist-200M-ONNX",
+      "status": "candidate_for_reverse_directions"
+    }
+  ],
   "rules": [
     "Record model source, license, version and checksum.",
     "Do not commit model weights to normal Git history.",

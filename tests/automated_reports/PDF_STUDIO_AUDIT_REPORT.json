@@ -1,0 +1,196 @@
+{
+  "audit_timestamp": "2026-10-31T23:45:00Z",
+  "total_documents_tested": 8,
+  "font_verification": {
+    "font_name": "Noto Sans Ol Chiki Regular",
+    "font_path": "C:\\AnuvaadAI Anti\\apps\\mobile\\assets\\fonts\\NotoSansOlChiki-Regular.ttf",
+    "size_bytes": 15180,
+    "license": "SIL Open Font License 1.1 (OFL)",
+    "ol_chiki_unicode_range": "U+1C50 - U+1C7F",
+    "full_glyph_coverage": true
+  },
+  "document_audits": [
+    {
+      "id": "doc1_single_page_hindi",
+      "title": "One-Page Digital Hindi Lesson",
+      "category": "single_page_digital",
+      "page_count": 1,
+      "pdf_size_bytes": 244299,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc2_multipage_hindi_textbook",
+      "title": "Multi-Page Hindi Science Textbook (3 Pages)",
+      "category": "multi_page_textbook",
+      "page_count": 3,
+      "pdf_size_bytes": 247042,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc3_english_educational",
+      "title": "English Educational Civics Document",
+      "category": "english_educational",
+      "page_count": 1,
+      "pdf_size_bytes": 243927,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc4_scanned_hindi_ocr",
+      "title": "Scanned Hindi Document (ML Kit OCR Fallback)",
+      "category": "scanned_ocr_fallback",
+      "page_count": 1,
+      "pdf_size_bytes": 242811,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": true,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc5_numbered_sections",
+      "title": "Numbered Hierarchical Sections Document",
+      "category": "numbered_sections",
+      "page_count": 1,
+      "pdf_size_bytes": 243222,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc6_tables_document",
+      "title": "Complex Classroom Data Tables",
+      "category": "data_tables",
+      "page_count": 1,
+      "pdf_size_bytes": 245308,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc7_images_and_captions",
+      "title": "Educational Figures and Captions",
+      "category": "images_captions",
+      "page_count": 1,
+      "pdf_size_bytes": 243977,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "id": "doc8_long_multichapter",
+      "title": "Long Multi-Chapter Primary Textbook",
+      "category": "long_multichapter",
+      "page_count": 4,
+      "pdf_size_bytes": 246607,
+      "embedded_fonts_count": 3,
+      "embedded_fonts_list": [
+        "Noto Sans Ol Chiki Regular",
+        "Noto Sans Devanagari Regular",
+        "Helvetica"
+      ],
+      "has_embedded_font": true,
+      "has_extractable_ol_chiki_text": true,
+      "is_scanned_ocr_fallback": false,
+      "reading_order_preserved": true,
+      "heading_hierarchy_preserved": true,
+      "status": "PASS"
+    }
+  ],
+  "rendered_previews": [
+    {
+      "doc_id": "doc1_single_page_hindi",
+      "title": "One-Page Digital Hindi Lesson",
+      "image_filename": "preview_doc1_single_page_hindi.png",
+      "image_path": "C:\\AnuvaadAI Anti\\tests\\fixtures\\pdf_previews\\preview_doc1_single_page_hindi.png",
+      "width": 1240,
+      "height": 1755,
+      "file_size_bytes": 78038
+    },
+    {
+      "doc_id": "doc4_scanned_hindi_ocr",
+      "title": "Scanned Hindi Document (ML Kit OCR Fallback)",
+      "image_filename": "preview_doc4_scanned_hindi_ocr.png",
+      "image_path": "C:\\AnuvaadAI Anti\\tests\\fixtures\\pdf_previews\\preview_doc4_scanned_hindi_ocr.png",
+      "width": 1240,
+      "height": 1755,
+      "file_size_bytes": 51493
+    },
+    {
+      "doc_id": "doc6_tables_document",
+      "title": "Complex Classroom Data Tables",
+      "image_filename": "preview_doc6_tables_document.png",
+      "image_path": "C:\\AnuvaadAI Anti\\tests\\fixtures\\pdf_previews\\preview_doc6_tables_document.png",
+      "width": 1240,
+      "height": 1755,
+      "file_size_bytes": 63316
+    }
+  ],
+  "overall_pass": true
+}
